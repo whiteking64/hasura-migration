@@ -1,0 +1,22 @@
+{
+  "name": "prisma-hasura",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && ENV_FILE=../.env node dist/prisma-example.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.8",
+    "prisma": "^5.16.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.16.0",
+    "dotenv": "^16.4.5"
+  }
+}
